@@ -11,6 +11,7 @@ def eratosthen(n):
     return [p for p in range(2, n + 1) if primes[p]]
 
 
+
 N = int(input("Введите натуральное число N: "))
 
 prime_numbers = eratosthen(N)
